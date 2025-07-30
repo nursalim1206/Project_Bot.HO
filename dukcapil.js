@@ -11,7 +11,7 @@ const FormData = require("form-data");
 const GRAFANA_URL = "http://nmc.psn.co.id:3000/d/zpGIrtHHz/xl-dukcapil?orgId=1&refresh=1m";
 const USERNAME = "nmc";
 const PASSWORD = "nmcPSN123";
-const HO_DIR = "HO";
+const HO_DIR = "HO_DUKCAPIL";
 const DATA_DIR = path.join(HO_DIR, "Data_HO");
 const FOTO_DIR = path.join(HO_DIR, "Foto_HO");
 [HO_DIR, DATA_DIR, FOTO_DIR].forEach((dir) => {
